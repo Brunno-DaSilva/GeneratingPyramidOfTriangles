@@ -1,0 +1,19 @@
+#container {
+  max-width: 850px;
+  max-height: 850px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.triangle {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #1468a9;
+}
+.row {
+  text-align: center;
+}
